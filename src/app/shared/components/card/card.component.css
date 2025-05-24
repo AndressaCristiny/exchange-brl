@@ -1,0 +1,98 @@
+.history-card {
+  background: #fff;
+  padding: 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  font-family: Arial, sans-serif;
+  transition: transform 0.3s ease, opacity 0.3s ease;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  font-size: 10px;
+  font-family: Roboto;
+  width: 310px;
+}
+
+.date {
+  color: #2196f3;
+  font-weight: 600;
+  font-size: 14px;
+  margin: 0;
+  align-self: flex-start;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 5px;
+}
+
+.pair {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 4px;
+  min-width: 140px;
+}
+
+.label {
+  font-weight: 500;
+  font-size: 11px;
+  margin-right: 20px;
+}
+
+.value {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.diff {
+  margin-top: 10px;
+  align-self: flex-start;
+
+  font-weight: 500;
+  font-size: 11px;
+  margin-right: 20px;
+  line-height: 14px;
+}
+
+.positive {
+  color: #69c669;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.negative {
+  color: #e54e4e;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.neutral {
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.mr-20 {
+  margin-right: 20px;
+}
+
+.pl-10 {
+  padding-left: 10px;
+}
+
+@media (max-width: 1300px) {
+  .row {
+    align-items: flex-start;
+    gap: 10px;
+  }
+
+  .history-card {
+    width: 90%;
+  }
+
+  .label {
+    margin-right: 30px;
+  }
+}
