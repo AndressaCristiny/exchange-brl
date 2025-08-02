@@ -33,4 +33,4 @@ O foco principal foi demonstrar habilidades com **CSS responsivo** e **replicaç
 
 &nbsp;
 
-## Feito com ❤️ por [Andressa Cristiny](https://www.linkedin.com/in/andressacristiny)
+## Feito com ❤️ por [Andressa Cristiny](https://www.linkedin.com/in/andressa-cristiny-da-costa-silva-96407b221/)
