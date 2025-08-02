@@ -1,59 +1,36 @@
-# exchange-brl
+# 💱 ExchangeBRL
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.2.13.
+**ExchangeBRL** é um projeto desenvolvido em Angular para exibir taxas de câmbio em relação ao real (BRL).  
+O foco principal foi demonstrar habilidades com **CSS responsivo** e **replicação de templates prontos**, além da **integração com uma API** em tempo real.
 
-## Development server
+&nbsp;
 
-To start a local development server, run:
+## 🧠 O que o projeto faz?
 
-```bash
-ng serve
-```
+- Permite consultar a **cotação atual** de diversas moedas em relação ao BRL
+- Exibe **gráficos com variações diárias** dos últimos 30 dias
+- Mostra valores de **abertura, fechamento, alta e baixa** de cada dia
+- Interface **totalmente responsiva** para mobile, tablet e desktop
+- Desenvolvido com foco em **boas práticas de CSS** e **estrutura modular em Angular**
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+&nbsp;
 
-## Code scaffolding
+## 🛠️ Tecnologias e Ferramentas
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
+- [Angular](https://angular.io/)
+- HTML5 & CSS3 (responsivo e sem frameworks)
+- TypeScript
+- RxJS & Observables
 
-```bash
-ng generate component component-name
-```
+&nbsp;
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
+## ✨ Destaques Técnicos
 
-```bash
-ng generate --help
-```
+- CSS puro, feito manualmente, focado em responsividade
+- Estrutura organizada com **repositórios Angular** (`api.repository.ts`)
+- Uso prático de diretivas Angular: `*ngIf`, `*ngFor`
+- Utilização de `FormsModule`, `CommonModule` e Observables para gerenciamento de estado
 
-## Building
+&nbsp;
 
-To build the project run:
-
-```bash
-ng build
-```
-
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
-
-## Running unit tests
-
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
-
-```bash
-ng test
-```
-
-## Running end-to-end tests
-
-For end-to-end (e2e) testing, run:
-
-```bash
-ng e2e
-```
-
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+## Feito com ❤️ por [Andressa Cristiny](https://www.linkedin.com/in/andressacristiny)
