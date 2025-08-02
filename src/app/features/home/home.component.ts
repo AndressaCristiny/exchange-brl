@@ -13,7 +13,7 @@ import { Repository } from '../../core/repositories/api.repository';
 export class HomeComponent {
   constructor(private repository: Repository) {}
 
-  title = 'action-labs';
+  title = 'exchange-brl';
   selectedCurrency: string = '';
   showCards = true;
   isFooterFixed = false;

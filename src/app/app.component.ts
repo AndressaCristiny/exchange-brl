@@ -9,5 +9,5 @@ import { NavComponent } from './shared/components/nav/nav.component';
   styleUrl: './app.component.css',
 })
 export class AppComponent {
-  title = 'action-labs';
+  title = 'exchange-brl';
 }

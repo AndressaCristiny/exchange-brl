@@ -1,5 +1,5 @@
 {
-  "name": "action-labs",
+  "name": "exchange-brl",
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
@@ -7,7 +7,7 @@
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
-    "serve:ssr:action-labs": "node dist/action-labs/server/server.mjs"
+    "serve:ssr:exchange-brl": "node dist/exchange-brl/server/server.mjs"
   },
   "private": true,
   "dependencies": {
