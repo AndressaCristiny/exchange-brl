@@ -1,4 +1,4 @@
-# 💱 ExchangeBRL
+# ExchangeBRL
 
 **ExchangeBRL** é um projeto desenvolvido em Angular para exibir taxas de câmbio em relação ao real (BRL).  
 O foco principal foi demonstrar habilidades com **CSS responsivo** e **replicação de templates prontos**, além da **integração com uma API** em tempo real.
@@ -27,7 +27,7 @@ O foco principal foi demonstrar habilidades com **CSS responsivo** e **replicaç
 ## ✨ Destaques Técnicos
 
 - CSS puro, feito manualmente, focado em responsividade
-- Estrutura organizada com **repositórios Angular** (`api.repository.ts`)
+- Estrutura organizada
 - Uso prático de diretivas Angular: `*ngIf`, `*ngFor`
 - Utilização de `FormsModule`, `CommonModule` e Observables para gerenciamento de estado
 
