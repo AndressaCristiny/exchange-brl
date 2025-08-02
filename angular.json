@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "action-labs": {
+    "exchange-brl": {
       "projectType": "application",
       "schematics": {},
       "root": "",
@@ -13,7 +13,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:application",
           "options": {
-            "outputPath": "dist/action-labs",
+            "outputPath": "dist/exchange-brl",
             "index": "src/index.html",
             "browser": "src/main.ts",
             "polyfills": ["zone.js"],
@@ -56,10 +56,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "buildTarget": "action-labs:build:production"
+              "buildTarget": "exchange-brl:build:production"
             },
             "development": {
-              "buildTarget": "action-labs:build:development"
+              "buildTarget": "exchange-brl:build:development"
             }
           },
           "defaultConfiguration": "development"
